@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+mlflow
+fastapi
+uvicorn
+pydantic
+pytest
+requests
+evidently

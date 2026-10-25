@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Env virtuel
+.venv/
+venv/
+ENV/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Modèles
+models/*.pkl
+!models/.gitkeep
+
+# Rapports générés
+reports/*.json
+reports/*.html
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
